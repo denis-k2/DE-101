@@ -1,6 +1,6 @@
 ## Создание Staging
-Запросы, переносящие 3 исходные таблицы из excel документа
-- https://github.com/denis-k2/DE-101/blob/main/Module2/stg_orders.sql
+Запросы, переносящие 3 исходные таблицы из excel документа в staging.
+- [stg_orders.sql](https://github.com/denis-k2/DE-101/blob/main/Module2/stg_orders.sql)
 - https://github.com/denis-k2/DE-101/blob/main/Module2/stg_people.sql
 - https://github.com/denis-k2/DE-101/blob/main/Module2/stg_returns.sql
 
