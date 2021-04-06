@@ -86,6 +86,7 @@ CREATE TABLE dw.sales_fact
  quantity     int4 NOT NULL,
  discount     numeric(4,2) NOT NULL,
  profit       numeric(9,4) NOT NULL,
+ returned     varchar(5) NULL,
  CONSTRAINT PK_sales_fact PRIMARY KEY ( sales_id ),
  CONSTRAINT fk_prod_id FOREIGN KEY ( prod_id ) REFERENCES dw.product_dim ( prod_id ),
  CONSTRAINT fk_cust_id FOREIGN KEY ( cust_id ) REFERENCES dw.customer_dim ( cust_id ),
