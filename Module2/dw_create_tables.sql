@@ -30,6 +30,7 @@ CREATE TABLE dw.manager_dim
  CONSTRAINT PK_manager_dim PRIMARY KEY ( manager_id )
 );
 
+-- ************* start geo
 drop table if exists dw.geo_dim ;
 CREATE TABLE dw.geo_dim
 (
@@ -42,6 +43,17 @@ CREATE TABLE dw.geo_dim
  CONSTRAINT PK_geo_dim PRIMARY KEY ( geo_id ),
  CONSTRAINT fk_manager_id FOREIGN KEY (manager_id) REFERENCES dw.manager_dim (manager_id)
 );
+
+-- City Burlington, Vermont doesn't have postal code
+update dw.geo_dim
+set postal_code = '05401'
+where city = 'Burlington'  and postal_code is null;
+
+--also update source file
+update stg.orders
+set postal_code = '05401'
+where city = 'Burlington'  and postal_code is null;
+-- ********** end geo
 
 drop table if exists dw.shipping_dim;
 CREATE TABLE dw.shipping_dim
