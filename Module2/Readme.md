@@ -7,5 +7,6 @@
 
 ## Создание DataWarehous
 ### Dimensional modeling. Snowflake schema.
-![Физическая модель](https://user-images.githubusercontent.com/78604607/113676812-28a7c100-96bd-11eb-8939-d40c6a921424.png)
+![Физическая модель](https://user-images.githubusercontent.com/78604607/114273488-810ef380-9a1a-11eb-97b1-408db8628ce4.png)
+
 
