@@ -22,7 +22,7 @@
 
 **Пользовательский запрос:**
 
-```
+```sql
 select * from dw.sales_fact sf
 inner join dw.shipping_dim s on sf.ship_id=s.ship_id
 inner join dw.geo_dim g on sf.geo_id=g.geo_id
