@@ -21,6 +21,7 @@
 Подключился к базе данных в облаке из Data Sudio и создал визуализацию.
 
 **Пользовательский запрос**
+
 ```
 select * from dw.sales_fact sf
 inner join dw.shipping_dim s on sf.ship_id=s.ship_id
