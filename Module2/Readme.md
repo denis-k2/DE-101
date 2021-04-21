@@ -30,4 +30,4 @@ inner join dw.product_dim p on sf.prod_id=p.prod_id
 inner join dw.customer_dim cd on sf.cust_id=cd.cust_id;
 ```
 
-Ссылка на dashboard скоро появится ...
+[Ссылка на dashboard](https://datastudio.google.com/reporting/5cd16969-bba6-4a32-9fad-8c086a92323e)
