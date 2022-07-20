@@ -1,3 +1,5 @@
+# Модуль 2: Базы данных и SQL
+
 ![Структура аналитического решения](https://user-images.githubusercontent.com/78604607/114277362-26ca5e80-9a2b-11eb-9934-0936b1a18d88.png)
 
 ## Зарегестрировался в Amazon Web Services.
