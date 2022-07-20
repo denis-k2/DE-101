@@ -1,8 +1,6 @@
 # DE-101
 
-aaaaaaa
-
-**Data-Learn** on [github](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules)
+__Data-Learn__ on [github](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules)
 
 - Module 1 - [Done](https://github.com/denis-k2/DE-101/tree/main/Module1)
 
