@@ -1,3 +1,5 @@
+# Модуль 3: Визуализация данных, дашборды и отчетность - Business Intelligence.
+
 Увидел у Романа Бунина на одном из выступлений просто картинку дашборда по __superstore__ и решил нарисовать его сам.
 
 Вот что получилось [Tableau Public](https://public.tableau.com/views/0_SuperStore-Final/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
