@@ -1,6 +1,10 @@
 # DE-101
-DataLearn the best course ever
+**Data-Learn** on [github](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules)
 
-2021.03.05 start module 1
+- Module 1 - [Done](https://github.com/denis-k2/DE-101/tree/main/Module1)
 
-2021.03.16 start module 2
+- Module 2 - [Done](https://github.com/denis-k2/DE-101/tree/main/Module2)
+
+- Module 3 - [Done](https://github.com/denis-k2/DE-101/tree/main/Module3)
+
+- Module 4 - [Done](https://github.com/denis-k2/DE-101/tree/main/Module4) as my [Pet-Project](https://github.com/denis-k2/relohelper)
