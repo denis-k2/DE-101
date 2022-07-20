@@ -18,7 +18,7 @@
 - [dw_insert_facts.sql](https://github.com/denis-k2/DE-101/blob/main/Module2/dw_insert_facts.sql)
 
 ## Google Data Studio
-Подключился к базе данных в облаке из Data Sudio и создал визуализацию.
+Подключился к базе данных в облаке AWS RDS (бесплатный период уже закончился) из Data Sudio и создал визуализацию.
 
 **Пользовательский запрос:**
 
@@ -29,5 +29,7 @@ inner join dw.geo_dim g on sf.geo_id=g.geo_id
 inner join dw.product_dim p on sf.prod_id=p.prod_id
 inner join dw.customer_dim cd on sf.cust_id=cd.cust_id;
 ```
+
+![dashboard](dashboard.png)
 
 [Ссылка на dashboard](https://datastudio.google.com/reporting/5cd16969-bba6-4a32-9fad-8c086a92323e)
